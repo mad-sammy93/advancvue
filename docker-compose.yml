@@ -1,0 +1,12 @@
+version: '1'
+
+services:
+  ddfrontend:
+    container_name: advancvue
+    image: node:20-alpine
+    command: yarn dev
+    volumes:
+      - ./:/app
+    working_dir: /app
+    ports:
+      - 5432:5432
