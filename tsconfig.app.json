@@ -6,7 +6,7 @@
     "composite": true,
     "baseUrl": ".",
     "paths": {
-      "SRC_BASE/*": ["src/*"],
+      "@/*": ["src/*"],
       "@shared/*": [
         "../api/types"
       ]
